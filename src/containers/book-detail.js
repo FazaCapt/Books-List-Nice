@@ -3,6 +3,11 @@ import { connect } from 'react-redux';
 
 class BookDetail extends Component {
     render() {
+        this.state.laksdasdaksda
+        this.setState({laksadak: 'akdsmkmdaksd'});
+
+
+
         if(!this.props.book) {
             return <div>Selected a book to get started.</div>;
         }
