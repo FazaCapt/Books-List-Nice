@@ -1,0 +1,14 @@
+// state argument is not application state, only the state
+// this reducers is responsible for
+
+export default function(state = null, action) {
+    switch(action.type) {
+        case 'BOOK_SELECTED':
+            return action.payload;
+
+            // state.title = book.title
+            // return state
+    }
+
+    return state;
+}
